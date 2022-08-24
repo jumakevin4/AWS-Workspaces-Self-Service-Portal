@@ -34,11 +34,7 @@ This project leverages the following services:
 
 Users can create their accounts through the register page. Anyone with an email on the Approved Domain as specified in the stack can register. 
 
-![Register Page](docs/screenshots/Example_register.png)
-
 After registering, users will receive a verification token through email. The user must enter this token on the verification page. Users are automatically redirected to the verify page after registering; however, they can also access it by accessing the site and browsing the verify from the top-right dropdown.
-
-![Verify Page](docs/screenshots/Example_verify.png)
 
 Once verified, the user can sign in to the portal with their created credentials. 
 
@@ -46,13 +42,9 @@ Once verified, the user can sign in to the portal with their created credentials
 
 Upon signing in, they will see the WorkSpace Request form as they have not created a WorkSpace yet. They can submit a request which will start the Approval process.
 
-![Request WorkSpace](docs/screenshots/Example_request.png)
-
 The Approver email as specified within the stack will receive an email with links to Approve or Reject the request.
 
 Upon signing in, they will see the WorkSpace Request form as they have not created a WorkSpace yet.
-
-![WorkSpace Approval](docs/screenshots/Example_approval.png)
 
 Once approved, the WorkSpace will begin automatically and immediately.
 
@@ -60,11 +52,7 @@ Once approved, the WorkSpace will begin automatically and immediately.
 
 After the WorkSpace is provisioned, the user will receive an email directly from Amazon with details on how to access their WorkSpace.
 
-![WorkSpace Access](docs/screenshots/Example_access.png)
-
 They can also begin managing the WorkSpace through the portal: rebuild, reboot, or delete.
-
-![WorkSpace Operations](docs/screenshots/Example_details.png)
 
 ## Deployment
 
@@ -236,7 +224,7 @@ The code for the pipeline resides within the root of the project, and the pipeli
 
 ## Authors
 
-* **Earl Gay** - *Initial work* - [eeg3](https://github.com/eeg3)
+* **Earl Gay** - *Original Initial work* - [eeg3](https://github.com/eeg3)
 
 See also the list of [contributors](https://github.com/eeg3/workspaces-portal/contributors) who participated in this project.
 
